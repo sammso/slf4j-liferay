@@ -13,7 +13,23 @@ to log where Liferay would end up logging all OSGi messages, and that's the Life
 
 And that's why I needed an SLF4J binding for the Liferay logging facilities.
 
+To build
+
+```
+mvn package
+```
+
 To use this guy, just build the jar and drop it in the Liferay deploy folder.
 
-It will install but will not be active until you drop the slf4j-api-1.7.12 jar into the Liferay deploy folder too.
+It will install but will not be active until you drop the slf4j-api-1.7.30 jar into the Liferay deploy folder too.
+
+To download slf4j-api-1.7.30 jar
+
+```
+wget https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+```
+
+
+
+
 
