@@ -4,7 +4,7 @@
 
   <groupId>com.liferay</groupId>
   <artifactId>slf4j-liferay</artifactId>
-  <version>1.7.12</version>
+  <version>1.7.30</version>
   <packaging>jar</packaging>
 
   <name>slf4j-liferay</name>
